@@ -1,0 +1,14 @@
+; disk sector size
+	00000200 sector-size
+
+; volume uuid
+40468c637b051f97-f762d73723a578af uuid
+
+# 0
+@EFI		 type-uuid
+?		 part-uuid
+0000000000000800 part-first-lba
+00000000000FFFDE part-last-lba
+0000000000000000 attrs
+'EFI System Partition
+
