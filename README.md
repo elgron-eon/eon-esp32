@@ -19,16 +19,15 @@ to build arduino image, type `make compile`
 and finally type `make upload && make com` to enjoy your system !
 
 # diagram
-check the gallery images. From top to bottom:
+check the gallery images. There are 3 components, from left to right:
 * RTC clock
+* MCU
 * SPI card reader
 
 # gallery
-![foto1](photo/foto1.jpg?raw=true)
+![foto1](photo/photo1.jpg?raw=true)
 
 # esp8266 pinout
-* reset button: pin13(active low)
-* leds: pin10(RUN) pin11(RESET) pin12(ERROR)
 * i2c bus: pin20(SDA) pin21(SCL)
 * spi bus: pin52(SCK) pin50(MISO) pin 51(MOSI) ping 53(SS active low)
 
